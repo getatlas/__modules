@@ -1,0 +1,24 @@
+{
+  "name": "alexbowers/modules",
+  "description": "A simple mechanism to allow Laravel 5.2+ to implement Modules",
+  "keywords": [
+    "laravel",
+    "modules"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alex Bowers",
+      "email": "bowersbros@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "illuminate/support": "^5.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "AlexBowers\\Modules\\": "src/"
+    }
+  }
+}
